@@ -5,6 +5,14 @@ VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartExplorer_SyncConsoleApp", "SmartExplorer_SyncConsoleApp\SmartExplorer_SyncConsoleApp.csproj", "{4818194A-C165-417E-A7DE-8ECB21C7675F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MSSQL", "MSSQL", "{8EC2FCF4-E6B0-461E-96A3-EAF626FB6240}"
+	ProjectSection(SolutionItems) = preProject
+		MSSQL\Create dbo.Block.sql = MSSQL\Create dbo.Block.sql
+		MSSQL\Create dbo.Transaction.sql = MSSQL\Create dbo.Transaction.sql
+		MSSQL\Create dbo.TransactionInput.sql = MSSQL\Create dbo.TransactionInput.sql
+		MSSQL\Create dbo.TransactionOutput.sql = MSSQL\Create dbo.TransactionOutput.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
